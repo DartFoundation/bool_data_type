@@ -8,10 +8,10 @@
       bool
   */
 
-void main() {
-  int a = 7;
-  int b = 7;
+bool func(int a, int b) {
+  return a == b;
+}
 
-  bool c = a == b;
-  print(c);
+void main() {
+  print(func(7, 7));
 }
