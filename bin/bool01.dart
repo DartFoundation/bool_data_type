@@ -9,5 +9,4 @@
   */
 
 void main() {
-  print(func(10, 9));
 }
